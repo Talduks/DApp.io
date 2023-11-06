@@ -1,0 +1,151 @@
+:root {
+    --primary-color: #3b3931;
+    --secondary-color: #45403c;
+    --tertiary-color: #4d3d3d;
+    --quaternary-color: #ffffff;
+        }
+
+       
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+        }
+
+      
+        body {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: url('file:///C:/Users/ks/Downloads/endless-constellation.svg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+      
+        .container {
+            width: 400px;
+            height: 500px;
+            background-color: var(--quaternary-color);
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            position: relative;
+        }
+
+       
+        .container h1 {
+            text-align: center;
+            margin-top: 40px;
+            color: var(--tertiary-color);
+            font-size: 36px;
+        }
+
+       
+        .container h2 {
+            text-align: center;
+            margin-top: 10px;
+            color: var(--tertiary-color);
+            font-size: 18px;
+        }
+
+       
+        .container form {
+            width: 80%;
+            margin: 0 auto;
+            margin-top: 40px;
+        }
+
+       
+        .container form input[type="text"] {
+            width: 100%;
+            height: 40px;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+            padding-left: 10px;
+            font-size: 16px;
+        }
+
+      
+        .container form input[type="email"] {
+            width: 100%;
+            height: 40px;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+            padding-left: 10px;
+            font-size: 16px;
+        }
+
+       
+        .container form input[type="password"] {
+            width: 100%;
+            height: 40px;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+            padding-left: 10px;
+            font-size: 16px;
+        }
+
+      
+        .container form button {
+            width: 100%;
+            height: 40px;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+            background-color: var(--secondary-color);
+            color: var(--quaternary-color);
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer; 
+        }
+
+       
+        .container form button + input {
+           margin-top :20px; 
+           margin-bottom :20px; 
+        }
+
+       
+         .container img {
+             width :55px; 
+             height :55px; 
+             position :absolute; 
+             bottom :-100px;
+             top : 400px; 
+             left :51%; 
+             transform :translateX(-50%);
+             cursor: pointer; 
+         }
+         #inicio {
+         cursor: pointer;
+         color: #080606;
+         top: 70%;
+         left: 32%;
+         width: 150px; 
+         height: 33px;
+         position: absolute;
+         border: 3px solid #e90404;
+         border-radius: 15px;
+         font-size: 17px;
+         background-color: #4CAF50;
+}
+
+        #Cadastro {
+        background-color: #725807; /* Cor de fundo do botão */
+        color: rgb(177, 20, 20); /* Cor do texto do botão */
+        border: none; /* Remove a borda padrão */
+        padding: -2px 32px; /* Espaçamento interno */
+        text-align: center; /* Alinhamento do texto */
+        text-decoration: none; /* Remove o sublinhado padrão */
+        display: inline-block;
+        font-size: 21px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 20px;
+        border: 3px solid #e90404;
+}
